@@ -1,0 +1,57 @@
+{
+    "users": [
+        {
+            "username": "testuser01",
+            "first_name": "test",
+            "last_name": "user01",
+            "email": "testuser01@noemail.com"
+        },
+        {
+            "username": "testuser02",
+            "first_name": "test",
+            "last_name": "user02",
+            "email": "testuser02@noemail.com"
+        },
+        {
+            "username": "testuser03",
+            "first_name": "test",
+            "last_name": "user03",
+            "email": "testuser03@noemail.com"
+        } 
+    ],
+    "courses": [
+        {
+            "name": "course01",
+            "participants": [
+                {
+                    "username": "testuser01",
+                    "role": "teacher"
+                },
+                {
+                    "username": "testuser02",
+                    "role": "student"
+                },
+                {
+                    "username": "testuser03",
+                    "role": "student"
+                }
+            ]
+        }
+    ],
+    "moodle-webservice": {
+        "functions": [
+            "core_course_get_courses",
+            "core_course_get_courses_by_field",
+            "core_user_get_users",
+            "core_user_get_users_by_field",
+            "core_enrol_get_enrolled_users"
+        ],
+        "token": "e89f0fad57f23afb2551a2b23ec4a310",
+        "private-token": "PmoPAGxD8cABk9eQbxVTCWf5Hzacac0q3U8sb7vEOatUcRBNFZpqO0E1JieRok4U"
+    },
+    "oauth": {
+        "client-id": "app-name",
+        "client-secret": "cc8f73244f73252d1f9c61383ea1e8ec7929a9de720695f9",
+        "redirect-uri": "http://localhost:8080/moodle-oauth/"
+    }
+}
